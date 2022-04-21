@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-pgit pushath='https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DA0101EN/automobileEDA.csv'
+path='https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DA0101EN/automobileEDA.csv'
 #(path='C:/Users/figinim/Documents/Studies/IBM/Resources/automobileEDA.csv')
 
 df = pd.read_csv(path)
